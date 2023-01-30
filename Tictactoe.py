@@ -40,7 +40,7 @@ class TicTacToe:
                 if self.board[j][i] != player:
                     win = False
                     break
-            If win:
+            if win:
                 return win
 
         # checking diagonals
